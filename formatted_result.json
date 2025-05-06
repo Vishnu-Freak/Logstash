@@ -1,0 +1,59 @@
+{
+    "message": "<14>1 2016-12-25T09:03:52.754646-06:00 acmeinchost1 antivirus 2496 - - alertname=\"Virus Found\" computername=\"acmeincpc42\" computerip=\"10.58.194.142\" severity=\"1\"",
+    "Description": "Virus Found",
+    "timestamp": "2016-12-25T09:03:52.754646-06:00",
+    "ProcessId": "2496",
+    "Severity": "High",
+    "SourceHostname": "acmeincpc42",
+    "PrinciapalHostname": "acmeinchost1",
+    "SourceIp": "10.58.194.142",
+    "ApplicationName": "antivirus"
+}
+
+{
+    "message": "<14>1 2016-12-27T11:25:30.789123-06:00 acmeinchost4 phishing 2498 - - alertname=\"Phishing mail Found\" computername=\"acmeincpc44\" computerip=\"10.58.194.144\" severity=\"2\"",
+    "Description": "Phishing mail Found",
+    "timestamp": "2016-12-27T11:25:30.789123-06:00",
+    "ProcessId": "2498",
+    "Severity": "Medium",
+    "SourceHostname": "acmeincpc44",
+    "PrinciapalHostname": "acmeinchost4",
+    "SourceIp": "10.58.194.144",
+    "ApplicationName": "phishing"
+}
+
+{
+    "message": "<14>1 2016-12-26T11:05:13.654321-06:00 acmeinchost3 malware 2497 - - alertname=\"Malware Quarantined\" computername=\"acmeincpc43\" computerip=\"10.58.194.143\" severity=\"3\"",
+    "Description": "Malware Quarantined",
+    "timestamp": "2016-12-26T11:05:13.654321-06:00",
+    "ProcessId": "2497",
+    "Severity": "Low",
+    "SourceHostname": "acmeincpc43",
+    "PrinciapalHostname": "acmeinchost3",
+    "SourceIp": "10.58.194.143",
+    "ApplicationName": "malware"
+}
+
+{
+    "message": "<14>1 2016-12-28T11:47:59.456987-06:00 acmeinchost5 trojan 2499 - - alertname=\"Trojan Detected\" computername=\"acmeincpc45\" computerip=\"10.58.194.145\" severity=\"4\"",
+    "Description": "Trojan Detected",
+    "timestamp": "2016-12-28T11:47:59.456987-06:00",
+    "ProcessId": "2499",
+    "Severity": "Informational",
+    "SourceHostname": "acmeincpc45",
+    "PrinciapalHostname": "acmeinchost5",
+    "SourceIp": "10.58.194.145",
+    "ApplicationName": "trojan"
+}
+
+{
+    "message": "<14>1 2016-12-20T12:15:42.321654-06:00 acmeinchost6 virus 2599 - - alertname=\"Malicious Program Found\" computername=\"acmeincpc46\" computerip=\"10.58.194.146\" severity=\"5\"",
+    "Description": "Malicious Program Found",
+    "timestamp": "2016-12-20T12:15:42.321654-06:00",
+    "ProcessId": "2599",
+    "Severity": "Unknown Severity",
+    "SourceHostname": "acmeincpc46",
+    "PrinciapalHostname": "acmeinchost6",
+    "SourceIp": "10.58.194.146",
+    "ApplicationName": "virus"
+}
