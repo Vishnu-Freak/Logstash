@@ -24,4 +24,3 @@ The configuration is designed to:
 - Support any log line with the same format.  
 - Extract values like `source_ip`, `hostname`, `severity`, `timestamp`, etc., into clearly defined fields.  
 - Maintain flexibility to adapt to new log values without changing the `grok` pattern drastically.
-"""
